@@ -1,0 +1,27 @@
+{
+  "name": "gitlab-filter-webhooks",
+  "version": "1.0.0",
+  "description": "Takes incoming webhooks, filters by ref, and forwards to the intended URL.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "micro-dev -i .idea",
+    "start": "micro"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weahead/gitlab-filter-webhooks.git"
+  },
+  "author": "We ahead <alla@weahead.se>",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/weahead/gitlab-filter-webhooks/issues"
+  },
+  "homepage": "https://github.com/weahead/gitlab-filter-webhooks#readme",
+  "dependencies": {
+    "micro": "9.3.3",
+    "node-fetch": "2.2.1"
+  },
+  "devDependencies": {
+    "micro-dev": "3.0.0"
+  }
+}
