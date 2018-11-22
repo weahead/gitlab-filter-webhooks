@@ -1,5 +1,5 @@
 const {parse, URL} = require('url');
-const fetch = require('node-fetch');
+const fetch = require('node-fetch').default;
 const {json} = require('micro');
 
 // Based on zeit/micro-proxy
